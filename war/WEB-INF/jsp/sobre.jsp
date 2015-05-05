@@ -17,7 +17,7 @@
 			<!-- start: Container -->
 			<div class="container">
 
-				<h1><i class="ico-keynote ico-white"></i>Sobre Nosotros</h1>
+				<h1><i class="ico-keynote ico-white"></i>Acerca de nosotros</h1>
 
 			</div>
 			<!-- end: Container  -->
@@ -40,7 +40,7 @@
 					
 					<!-- start: About Us -->
 					<div id="about">
-						<div class="title"><h3>Sobre nosotros</h3></div>
+						<div class="title"><h3>Acerca de nosotros</h3></div>
 						<p>
 							Somos un equipo de personas con pasión por viajar, la historia y en especial por la ciudad de Granada, que además quiere ofrecerte la mejor información y los mejores artículos para buscar hoteles y destinos a visitar en la ciudad andaluza, pues está repleta de rincones maravillosos que visitar.
 						</p>
