@@ -68,7 +68,7 @@
 				<div class="span4 portfolio-item Seducción Trucos">
 				<div>
 				<div id="BuscadorHoteles" style="margin: 0 auto;">				
-					<ins class="bookingaff" data-aid="820003" data-target_aid="819521" data-prod="nsb" data-width="325" data-height="370">
+					<ins class="bookingaff" data-aid="824641" data-target_aid="819521" data-prod="nsb" data-width="325" data-height="370">
 					    <!-- Anything inside will go away once widget is loaded. -->
 					    <a href="//www.booking.com?aid=819521">Booking.com</a>
 					</ins>

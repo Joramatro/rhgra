@@ -371,7 +371,7 @@
 
 	<div id="banAmazonHorizontal" style="position:absolute;top:950px;left:18px;color:#F57C17">
 			<div id="Amazon2art" class="iframe_wrap">
-				<ins data-lang="es" class="bookingaff" data-aid="819535" data-target_aid="819521" data-prod="nsb" data-width="210" data-height="400">
+				<ins class="bookingaff" data-aid="824640" data-target_aid="819521" data-prod="nsb" data-width="210" data-height="400">
 				    <!-- Anything inside will go away once widget is loaded. -->
 				    <a href="//www.booking.com?aid=819521">Booking.com</a>
 				</ins>
