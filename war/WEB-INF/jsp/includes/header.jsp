@@ -302,7 +302,7 @@
 	</c:otherwise>		
 	</c:choose>
 	<link rel="alternate" type="application/rss+xml" title="Reservar Hotel Granada RSS Feed" href="http://www.reservarhotelgranada.com/rssfeed" />
-	<link href="https://plus.google.com/112598405675220307611" rel="publisher" />
+	<link href="https://plus.google.com/+Reservarhotelgranada1" rel="publisher" />
 	<style>
 	@font-face {
 	  font-family: 'Droid Sans';
@@ -335,8 +335,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-61708064-1', 'auto');
-  ga('require', 'linkid', 'linkid.js');
+  ga('create', 'UA-62627958-1', 'auto');
   ga('send', 'pageview');
 
 </script>

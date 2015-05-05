@@ -114,10 +114,10 @@
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-facebook">
-											<a target="_blank" href="https://www.facebook.com/reservarhotelgranada"></a>
+											<a target="_blank" href="https://www.facebook.com/pages/Reservar-Hotel-Granada/693538744121790"></a>
 										</div>
 										<div class="social-info-back social-facebook-hover">
-											<a target="_blank" href="https://www.facebook.com/reservarhotelgranada"></a>
+											<a target="_blank" href="https://www.facebook.com/pages/Reservar-Hotel-Granada/693538744121790"></a>
 										</div>
 									</div>
 								</div>
@@ -128,10 +128,10 @@
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-youtube">
-											<a target="_blank" href="https://www.youtube.com/channel/UCBN3PXHQr-jGpstTiSuqCKQ"></a>
+											<a target="_blank" href="https://www.youtube.com/Reservarhotelgranada1"></a>
 										</div>
 										<div class="social-info-back social-youtube-hover">
-											<a target="_blank" href="https://www.youtube.com/channel/UCBN3PXHQr-jGpstTiSuqCKQ"></a>
+											<a target="_blank" href="https://www.youtube.com/Reservarhotelgranada1"></a>
 										</div>	
 									</div>
 								</div>
@@ -158,12 +158,12 @@
 					<!-- start: Newsletter -->
 					
 					<h3>Suscríbete!</h3>
-					<form id="newsletter" action="//reservarhotelmadrid.us10.list-manage.com/subscribe/post?u=fa305d6ec0ab2ca194c14e92b&amp;id=d2be27c462" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">	
-						<p>Por favor, déjanos tu email para recibir las mejores ofertas para reservar hotel en Granada.</p>
+					<form id="newsletter" action="//reservarhotelgranada.us10.list-manage.com/subscribe/post?u=75e517166c4d44713341c58a4&amp;id=9eae75f46b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">	
+						<p>Por favor, déjanos tu email para recibir las mejores ofertas para viajar y reservar hotel en Granada.</p>
 						<label for="newsletter_input">@:</label>
 						<input style="border: 1px solid #29a9df" type="text" name="EMAIL" id="mce-EMAIL" placeholder="Introduce tu email">
 						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    					<div style="position: absolute; left: -5000px;"><input type="text" name="b_fa305d6ec0ab2ca194c14e92b_d2be27c462" tabindex="-1" value=""></div>
+    					<div style="position: absolute; left: -5000px;"><input type="text" name="b_75e517166c4d44713341c58a4_9eae75f46b" tabindex="-1" value=""></div>
 						<input type="submit" value="Suscribirme" name="Suscribirme" id="mc-embedded-subscribe">							
 					</form>
 					<!-- end: Newsletter -->
@@ -189,7 +189,7 @@
 			
 				<p>
 				<a style="margin-right: 35px;" href="http://www.reservarhotelgranada.com/rssfeed" accesskey="r"><img src="/img/rss.gif" alt="RSS"/>RSS</a>
-				&copy; 2015, <a target="_blank" href="https://plus.google.com/112598405675220307611" rel="publisher"><span id="_publisher8" itemscope itemtype="http://schema.org/Organization">
+				&copy; 2015, <a target="_blank" href="https://plus.google.com/+Reservarhotelgranada1" rel="publisher"><span id="_publisher8" itemscope itemtype="http://schema.org/Organization">
 <span itemprop="name">Reservar Hotel Granada</span></span></a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				<a style="margin-left: 19px;" href="/politica-de-privacidad">Política de privacidad</a>					
 				</p>
