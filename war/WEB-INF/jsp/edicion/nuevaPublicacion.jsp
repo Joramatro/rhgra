@@ -55,7 +55,7 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
 	          		</a>
-					<a class="brand" href="/"><i class="ico-suitcase circle"></i>Reservar Hotel <span>Madrid</span>.</a>
+					<a class="brand" href="/"><i class="ico-suitcase circle"></i>Reservar Hotel <span>Granada</span>.</a>
 	          		<div class="nav-collapse collapse">
 	            		<ul class="nav">
 							<li class="active">

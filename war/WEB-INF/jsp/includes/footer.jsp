@@ -13,7 +13,7 @@
 				<!-- start: Footer Menu Logo -->
 				<div class="span2">
 					<div id="footer-menu-logo">
-						<div id="logo-chart"></div><a class="brand" href="http://www.reservarhotelmadrid.com/">RH<span>Mad</span>.</a>
+						<div id="logo-chart"></div><a class="brand" href="http://www.reservarhotelgranada.com/">RH<span>Gra</span>.</a>
 					</div>
 				</div>
 				<!-- end: Footer Menu Logo -->
@@ -25,7 +25,7 @@
 
 						<ul id="footer-nav">
 
-							<li><a href="http://www.reservarhotelmadrid.com/">Inicio</a></li>
+							<li><a href="http://www.reservarhotelgranada.com/">Inicio</a></li>
 							
 							<li><a href="/blog">Blog</a></li>
 
@@ -44,7 +44,7 @@
 				<div class="span1">
 						
 					<div id="footer-menu-back-to-top">
-						<a href="http://www.reservarhotelmadrid.com/"></a>
+						<a href="http://www.reservarhotelgranada.com/"></a>
 					</div>
 				
 				</div>
@@ -72,7 +72,7 @@
 					
 					<h3>Sobre nosotros</h3>
 					<p>
-						Somos un equipo de personas con pasión por viajar y en especial por la ciudad de Madrid, que además quiere ofrecerte la mejor información y los mejores artículos sobre reserva de hoteles y destinos a visitar en la capital española.
+						Somos un equipo de personas con pasión por viajar y en especial por la ciudad de Granada, que además quiere ofrecerte la mejor información y los mejores artículos sobre reserva de hoteles y destinos a visitar en la capital granadina.
 					</p>
 						
 				</div>
@@ -100,10 +100,10 @@
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-twitter">
-											<a target="_blank" href="https://twitter.com/RHotelMadrid"></a>
+											<a target="_blank" href="https://twitter.com/RHotelGranada"></a>
 										</div>
 										<div class="social-info-back social-twitter-hover">
-											<a target="_blank" href="https://twitter.com/RHotelMadrid"></a>
+											<a target="_blank" href="https://twitter.com/RHotelGranada"></a>
 										</div>	
 									</div>
 								</div>
@@ -114,10 +114,10 @@
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-facebook">
-											<a target="_blank" href="https://www.facebook.com/reservarhotelmadrid"></a>
+											<a target="_blank" href="https://www.facebook.com/reservarhotelgranada"></a>
 										</div>
 										<div class="social-info-back social-facebook-hover">
-											<a target="_blank" href="https://www.facebook.com/reservarhotelmadrid"></a>
+											<a target="_blank" href="https://www.facebook.com/reservarhotelgranada"></a>
 										</div>
 									</div>
 								</div>
@@ -143,10 +143,10 @@
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-flickr">
-											<a target="_blank" href="https://www.flickr.com/photos/reservarhotelmadrid/"></a>
+											<a target="_blank" href="https://www.flickr.com/photos/reservarhotelgranada/"></a>
 										</div>
 										<div class="social-info-back social-flickr-hover">
-											<a target="_blank" href="https://www.flickr.com/photos/reservarhotelmadrid/"></a>
+											<a target="_blank" href="https://www.flickr.com/photos/reservarhotelgranada/"></a>
 										</div>	
 									</div>
 								</div>
@@ -159,7 +159,7 @@
 					
 					<h3>Suscríbete!</h3>
 					<form id="newsletter" action="//reservarhotelmadrid.us10.list-manage.com/subscribe/post?u=fa305d6ec0ab2ca194c14e92b&amp;id=d2be27c462" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">	
-						<p>Por favor, déjanos tu email para recibir las mejores ofertas para reservar hotel en Madrid.</p>
+						<p>Por favor, déjanos tu email para recibir las mejores ofertas para reservar hotel en Granada.</p>
 						<label for="newsletter_input">@:</label>
 						<input style="border: 1px solid #29a9df" type="text" name="EMAIL" id="mce-EMAIL" placeholder="Introduce tu email">
 						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -188,9 +188,9 @@
 			<div class="span12">
 			
 				<p>
-				<a style="margin-right: 35px;" href="http://www.reservarhotelmadrid.com/rssfeed" accesskey="r"><img src="/img/rss.gif" alt="RSS"/>RSS</a>
+				<a style="margin-right: 35px;" href="http://www.reservarhotelgranada.com/rssfeed" accesskey="r"><img src="/img/rss.gif" alt="RSS"/>RSS</a>
 				&copy; 2015, <a target="_blank" href="https://plus.google.com/112598405675220307611" rel="publisher"><span id="_publisher8" itemscope itemtype="http://schema.org/Organization">
-<span itemprop="name">Reservar Hotel Madrid</span></span></a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
+<span itemprop="name">Reservar Hotel Granada</span></span></a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				<a style="margin-left: 19px;" href="/politica-de-privacidad">Política de privacidad</a>					
 				</p>
 			</div>
@@ -241,7 +241,7 @@ $("head").append("<link rel='stylesheet' type='text/css' href='/css/rateit.css' 
 	if(parts[1] == 'contacto'){		
 		$("#menuContacto").addClass('active');
 	}else if(parts[1] == 'sobre'){	
-		$("#menuSobre").addClass('active');
+		$("#menuAcerca").addClass('active');
 	}else if('${publicacion.tipo}' == 'AR'){	
 		$("#menuBlog").addClass('active');
 	}else if('${publicacion.tipo}' == 'EB'){	
@@ -254,6 +254,5 @@ $("head").append("<link rel='stylesheet' type='text/css' href='/css/rateit.css' 
 		$("#menuInicio").addClass('active');
 	}
 </script>
-<script src="//load.sumome.com/" data-sumo-site-id="a69a8738b4d6dd583b543aaf3aa2ca89fc3cdfe10dd50a13dbb796a5996e49e6" async defer></script>
-
+<script src="//load.sumome.com/" data-sumo-site-id="247eb172345f004ba335554e9f51145df015c2a35b2019f2c56fcea861e882cf" async defer></script>
 <!-- end: Java Script -->

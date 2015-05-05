@@ -52,7 +52,7 @@
 				<div class="span3">
 					<div class="title"><h3>Información de Contacto</h3></div>
 					<p>
-						<b>Reservar Hotel Madrid</b>
+						<b>Reservar Hotel Granada</b>
 					</p>
 					<p>
 						The Triangle, Ranelagh
@@ -61,7 +61,7 @@
 						Dublin 6, Dublin, Irlanda
 					</p>	
 					<p>
-						Email: hola@reservarhotelmadrid.com
+						Email: hola@reservarhotelgranada.com
 					</p>
 				</div>
 				<!-- end: Contact Info -->		
@@ -110,10 +110,10 @@
 				<div class="span5" style="padding-bottom: 12px;">
 					<div class="title"><h3>Síguenos!</h3></div>
 					<ul class="social-bookmarks">
-						<li class="facebook"><a target="_blank" href="https://www.facebook.com/reservarhotelmadrid">facebook</a></li>
-						<li class="flickr"><a target="_blank" href="https://www.flickr.com/photos/reservarhotelmadrid/">flickr</a></li>
+						<li class="facebook"><a target="_blank" href="https://www.facebook.com/reservarhotelgranada">facebook</a></li>
+						<li class="flickr"><a target="_blank" href="https://www.flickr.com/photos/reservarhotelgranada/">flickr</a></li>
 						<li class="googleplus"><a target="_blank" href="https://plus.google.com/u/1/b/112598405675220307611/">googleplus</a></li>
-						<li class="twitter"><a target="_blank" href="https://twitter.com/RHotelMadrid">twitter</a></li>
+						<li class="twitter"><a target="_blank" href="https://twitter.com/RHotelGranada">twitter</a></li>
 						<li class="yelp"><a target="_blank" href="http://www.yelp.es/user_details?userid=5Kcyc9NKkJ81ZxrGmCrLXQ">yelp</a></li>
 						<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCBN3PXHQr-jGpstTiSuqCKQ">youtube</a></li>
 					</ul>

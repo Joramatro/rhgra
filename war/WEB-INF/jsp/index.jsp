@@ -50,11 +50,11 @@
       		<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
       		<div class="hero-unit">
 				<h3>
-					Si estás interesado en reservar hotel en Madrid, ya sea en el centro de la capital como en las afueras, en esta web podrás encontrar los mejores hoteles más económicos en función de tus intereses y posibilidades.<br>
-					Aquí te ayudaremos a buscar y encontrar el hotel ideal que estás buscando en Madrid a través de nuestros artículos, de manera que puedas disfrutar de los mejores lugares y rincones de la capital de España.<br>
-					Te mostramos además las mejores ofertas de hoteles donde poder hospedarte para tu próximo viaje y reservar tu habitación con la máxima seguridad y los mejores profesionales del sector hotelero.
+					Si tienes intención de reservar hotel en Granada, ya sea en el centro histórico de la capital como en las afueras, en nuestra web podrás encontrar los mejores hoteles más económicos en función de tus intereses y posibilidades.<br>
+					Aquí te ayudaremos a buscar y encontrar el hotel ideal que estás buscando en Granada a través de nuestros artículos, de manera que puedas disfrutar de los mejores lugares y rincones de la capital granadina.<br>
+					Te mostramos además las mejores ofertas de hoteles donde poder hospedarte para tu próximo viaje a la ciudad andaluza y reservar tu habitación con la máxima seguridad y los mejores profesionales del sector hotelero.
 				</h3>
-        		<p><br><a class="btn btn-primary btn-large" title="Oferta Hoteles Madrid" href="/ofertas">ver Hoteles Recomendados en Madrid</a> &nbsp;&nbsp;<a title="Blog" class="btn btn-primary btn-large" href="/blog">ver Blog</a></p>
+        		<p><br><a class="btn btn-primary btn-large" title="Oferta Hoteles Granada" href="/ofertas">ver Hoteles Recomendados en Granada</a> &nbsp;&nbsp;<a title="Blog" class="btn btn-primary btn-large" href="/blog">ver Blog</a></p>
       		</div>
 			<!-- end: Hero Unit -->
 			<div id="googleRecIndex1" class="iframe_wrap">			
@@ -81,8 +81,8 @@
 						<div class="icons-box-vert">
 							<i class="ico-ok ico-white circle-color-full"></i>
 							<div class="icons-box-vert-info">
-								<h3>Reservar Hotel Madrid Centro</h3>
-								<p>Reserva el hotel más encantador y económico en Madrid centro para poder visitar fácilmente los lugares más interesantes de la ciudad.</p>
+								<h3>Reservar Hotel en Granada</h3>
+								<p>Reserva un hotel encantador y económico de Granada en su centro histórico para poder visitar fácilmente los lugares más interesantes de la ciudad.</p>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -94,8 +94,8 @@
 						<div class="icons-box-vert">
 							<i class="ico-ok ico-white circle-color-full"></i>
 							<div class="icons-box-vert-info">
-								<h3>Qué ver en Madrid</h3>
-								<p>Encuentra artículos y opiniones personales para buscar hotel en Madrid y descubre con nosotros los sitios y eventos que no te puedes perder durante tu visita a la capital española.</p>
+								<h3>Qué ver en Granada</h3>
+								<p>Encuentra artículos y opiniones personales para buscar hotel en Granada y descubre con nosotros los sitios y actividades que no te puedes perder durante tu visita a la capital granadina.</p>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -107,7 +107,7 @@
 						<div class="icons-box-vert">
 							<i class="ico-ok ico-white circle-color-full"></i>
 							<div class="icons-box-vert-info">
-								<h3>La mejor oferta de hoteles en Madrid</h3>
+								<h3>La mejor oferta de hoteles en Granada</h3>
 								<p>Encuentra el mejor hotel para tu estancia según tus necesidades, presupuesto y la zona donde quieras alojarte para hacer así de tu viaje una experiencia inolvidable.</p>
 							</div>
 							<div class="clear"></div>

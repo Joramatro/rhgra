@@ -28,7 +28,7 @@
 	
 	<!--start: Wrapper -->
 	<div itemscope itemtype="http://schema.org/Article" id="wrapper">
-		<div style="display:none"><span itemprop="url">http://www.reservarhotelmadrid.com/${publicacion.url}</span><span itemprop="publisher">Reservar Hotel Madrid</span></div>		
+		<div style="display:none"><span itemprop="url">http://www.reservarhotelgranada.com/${publicacion.url}</span><span itemprop="publisher">Reservar Hotel Granada</span></div>		
 		<!--start: Container -->
     	<div class="container">
     				<% 
@@ -120,7 +120,7 @@
 					<br>
 				
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<h2><a href="/ofertas" onClick="ga('send', 'event', 'Ofertas', '${publicacion.url}', 'Boton Oferta Hoteles');" class="button color launch" target="_blank">Ver hoteles recomendados en Madrid</a></h2>				
+						<h2><a href="/ofertas" onClick="ga('send', 'event', 'Ofertas', '${publicacion.url}', 'Boton Oferta Hoteles');" class="button color launch" target="_blank">Ver hoteles recomendados en Granada</a></h2>				
 					</c:if>
 					<meta id="_articleBody7" itemprop="articleBody" content="${fn:replace(publicacion.articulo, "\"", "'")}">
 					${publicacion.articulo}				
@@ -130,7 +130,7 @@
 					<br>
 					<p style="font-style: italic;">Por favor, no dudes en compartir en las redes sociales, puntuar y comentar tu opinión sobre este artículo en la sección de <a href="#comments">comentarios</a></p>					
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<br><h2><a href="/ofertas" onClick="ga('send', 'event', 'Ofertas', '${publicacion.url}', 'Boton Oferta Hoteles');" class="button color launch">Ver hoteles recomendados en Madrid</a></h2>
+						<br><h2><a href="/ofertas" onClick="ga('send', 'event', 'Ofertas', '${publicacion.url}', 'Boton Oferta Hoteles');" class="button color launch">Ver hoteles recomendados en Granada</a></h2>
 					</c:if>
 					<br>											
 				</div>	

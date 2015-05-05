@@ -28,7 +28,7 @@
 	
 	<!--start: Wrapper -->
 	<div itemscope itemtype="http://schema.org/Article" id="wrapper">
-		<div style="display:none"><span itemprop="url">http://www.reservarhotelmadrid.com/${publicacion.url}</span><span itemprop="publisher">Reservar Hotel Madrid</span></div>		
+		<div style="display:none"><span itemprop="url">http://www.reservarhotelgranada.com/${publicacion.url}</span><span itemprop="publisher">Reservar Hotel Granada</span></div>		
 		<!--start: Container -->
     	<div class="container">
 			<% 

@@ -18,290 +18,290 @@
 	<!-- end: Mobile Specific -->
 	<c:choose>
 	<c:when test="${!empty publicacion && publicacion.tipo eq 'EB'}">
-		<title>${publicacion.titulo} | Reservar Hotel Madrid</title> 
+		<title>${publicacion.titulo} | Reservar Hotel Granada</title> 
 		<meta name="description" content="${publicacion.descripcion}"/>
-		<meta name="author" content="Jorge Amat" />
-		<meta name="copyright" content="Reservar Hotel Madrid" />
-		<meta name="application-name" content="Reservar Hotel Madrid" />
+		<meta name="author" content="Raúl" />
+		<meta name="copyright" content="Reservar Hotel Granada" />
+		<meta name="application-name" content="Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="${publicacion.titulo} en Reservar Hotel Madrid"/>
+		<meta property="og:title" content="${publicacion.titulo} en Reservar Hotel Granada"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
 		<meta property="og:type" content="hotel"/>
-		<meta property="og:url" content="http://www.reservarhotelmadrid.com/${publicacion.url}"/>
+		<meta property="og:url" content="http://www.reservarhotelgranada.com/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
-		<meta property="og:email" content="hola@reservarhotelmadrid.com"/>
+		<meta property="og:email" content="hola@reservarhotelgranada.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@RHotelMadrid">
-		<meta name="twitter:creator" content="@RHotelMadrid">
-		<meta name="twitter:title" content="${publicacion.titulo} en Reservar Hotel Madrid">
+		<meta name="twitter:site" content="@RHotelGranada">
+		<meta name="twitter:creator" content="@RHotelGranada">
+		<meta name="twitter:title" content="${publicacion.titulo} en Reservar Hotel Granada">
 		<meta name="twitter:description" content="${publicacion.descripcion}">
 		<meta name="twitter:image" content="${publicacion.lImages[0]}">
-		<meta name="twitter:domain" content="reservarhotelmadrid.com">
+		<meta name="twitter:domain" content="reservarhotelgranada.com">
 		<!-- end: Twitter tags -->
-		<link rel="canonical" href="http://www.reservarhotelmadrid.com/${publicacion.url}"/>
+		<link rel="canonical" href="http://www.reservarhotelgranada.com/${publicacion.url}"/>
 	</c:when>
 	<c:when test="${!empty publicacion && publicacion.tipo eq 'AR'}">
-		<title>${publicacion.titulo} | Reservar Hotel Madrid</title> 
+		<title>${publicacion.titulo} | Reservar Hotel Granada</title> 
 		<meta name="description" content="${publicacion.descripcion}"/>
-		<meta name="author" content="Jorge Amat" />
-		<meta name="copyright" content="Reservar Hotel Madrid" />
-		<meta name="application-name" content="Reservar Hotel Madrid" />
+		<meta name="author" content="Raúl" />
+		<meta name="copyright" content="Reservar Hotel Granada" />
+		<meta name="application-name" content="Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="${publicacion.titulo} en Reservar Hotel Madrid"/>
+		<meta property="og:title" content="${publicacion.titulo} en Reservar Hotel Granada"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
 		<meta property="og:type" content="articulos"/>
-		<meta property="og:url" content="http://www.reservarhotelmadrid.com/${publicacion.url}"/>
+		<meta property="og:url" content="http://www.reservarhotelgranada.com/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
-		<meta property="og:email" content="hola@reservarhotelmadrid.com"/>
+		<meta property="og:email" content="hola@reservarhotelgranada.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@RHotelMadrid">
-		<meta name="twitter:creator" content="@RHotelMadrid">
-		<meta name="twitter:title" content="${publicacion.titulo} en Reservar Hotel Madrid">
+		<meta name="twitter:site" content="@RHotelGranada">
+		<meta name="twitter:creator" content="@RHotelGranada">
+		<meta name="twitter:title" content="${publicacion.titulo} en Reservar Hotel Granada">
 		<meta name="twitter:description" content="${publicacion.descripcion}">
 		<meta name="twitter:image" content="${publicacion.lImages[0]}">
-		<meta name="twitter:domain" content="reservarhotelmadrid.com">
+		<meta name="twitter:domain" content="reservarhotelgranada.com">
 		<!-- end: Twitter tags -->
-		<link rel="canonical" href="http://www.reservarhotelmadrid.com/${publicacion.url}"/>
+		<link rel="canonical" href="http://www.reservarhotelgranada.com/${publicacion.url}"/>
 	</c:when>	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'sobre')}">
-		<title>Sobre Nosotros | Reservar Hotel Madrid</title> 
-		<meta name="description" content="Toda la información sobre los que trabajamos en Reservar Hotel Madrid, su experiencia y valores profesionales"/>
-		<meta name="author" content="Reservar Hotel Madrid" />
-		<meta name="copyright" content="Reservar Hotel Madrid" />
-		<meta name="application-name" content="Sobre Nosotros en Reservar Hotel Madrid" />
+		<title>Acerca de | Reservar Hotel Granada</title> 
+		<meta name="description" content="Toda la información sobre los que trabajamos en Reservar Hotel Granada, su experiencia y valores profesionales"/>
+		<meta name="author" content="Reservar Hotel Granada" />
+		<meta name="copyright" content="Reservar Hotel Granada" />
+		<meta name="application-name" content="Acerca de nosotros en Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="Sobre Nosotros en Reservar Hotel Madrid"/>
-		<meta property="og:description" content="Toda la información sobre los que trabajamos en Reservar Hotel Madrid, su experiencia y valores profesionales"/>
+		<meta property="og:title" content="Acerca de nosotros en Reservar Hotel Granada"/>
+		<meta property="og:description" content="Toda la información sobre los que trabajamos en Reservar Hotel Granada, su experiencia y valores profesionales"/>
 		<meta property="og:type" content="sobre"/>
-		<meta property="og:url" content="http://www.reservarhotelmadrid.com/sobre"/>
+		<meta property="og:url" content="http://www.reservarhotelgranada.com/sobre"/>
 		<meta property="og:image" content="/img/img-meta/logo_grande.jpg"/>
-		<meta property="og:email" content="hola@reservarhotelmadrid.com"/>
+		<meta property="og:email" content="hola@reservarhotelgranada.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@RHotelMadrid">
-		<meta name="twitter:creator" content="@RHotelMadrid">
-		<meta name="twitter:title" content="Sobre nosotros en Reservar Hotel Madrid">
-		<meta name="twitter:description" content="Toda la información sobre los que trabajamos en Reservar Hotel Madrid, su experiencia y valores profesionales">
+		<meta name="twitter:site" content="@RHotelGranada">
+		<meta name="twitter:creator" content="@RHotelGranada">
+		<meta name="twitter:title" content="Acerca de nosotros en Reservar Hotel Granada">
+		<meta name="twitter:description" content="Toda la información sobre los que trabajamos en Reservar Hotel Granada, su experiencia y valores profesionales">
 		<meta name="twitter:image" content="/img/img-meta/logo_grande.jpg">
-		<meta name="twitter:domain" content="reservarhotelmadrid.com">
+		<meta name="twitter:domain" content="reservarhotelgranada.com">
 		<!-- end: Twitter tags -->
-		<link rel="canonical" href="http://www.reservarhotelmadrid.com/sobre"/>	
+		<link rel="canonical" href="http://www.reservarhotelgranada.com/sobre"/>	
 	</c:when>
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'contacta')}">
-		<title>Contacta | Reservar Hotel Madrid</title> 
-		<meta name="description" content="Contacta con los que trabajamos en Reservar Hotel Madrid"/>
-		<meta name="author" content="Reservar Hotel Madrid" />
-		<meta name="copyright" content="Reservar Hotel Madrid" />
-		<meta name="application-name" content="Contacto en Reservar Hotel Madrid" />
+		<title>Contacta | Reservar Hotel Granada</title> 
+		<meta name="description" content="Contacta con los que trabajamos en Reservar Hotel Granada"/>
+		<meta name="author" content="Reservar Hotel Granada" />
+		<meta name="copyright" content="Reservar Hotel Granada" />
+		<meta name="application-name" content="Contacto en Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="Contacta en Reservar Hotel Madrid"/>
-		<meta property="og:description" content="Contacta con los que trabajamos en Reservar Hotel Madrid"/>
+		<meta property="og:title" content="Contacta en Reservar Hotel Granada"/>
+		<meta property="og:description" content="Contacta con los que trabajamos en Reservar Hotel Granada"/>
 		<meta property="og:type" content="contacto"/>
-		<meta property="og:url" content="http://www.reservarhotelmadrid.com/contacto"/>
+		<meta property="og:url" content="http://www.reservarhotelgranada.com/contacto"/>
 		<meta property="og:image" content="/img/img-meta/logo_grande.jpg"/>
-		<meta property="og:email" content="hola@reservarhotelmadrid.com"/>
+		<meta property="og:email" content="hola@reservarhotelgranada.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@RHotelMadrid">
-		<meta name="twitter:creator" content="@RHotelMadrid">
-		<meta name="twitter:title" content="Contacta con nosotros en Reservar Hotel Madrid">
-		<meta name="twitter:description" content="Contacta con los que trabajamos en Reservar Hotel Madrid">
+		<meta name="twitter:site" content="@RHotelGranada">
+		<meta name="twitter:creator" content="@RHotelGranada">
+		<meta name="twitter:title" content="Contacta con nosotros en Reservar Hotel Granada">
+		<meta name="twitter:description" content="Contacta con los que trabajamos en Reservar Hotel Granada">
 		<meta name="twitter:image" content="/img/img-meta/logo_grande.jpg">
-		<meta name="twitter:domain" content="reservarhotelmadrid.com">
+		<meta name="twitter:domain" content="reservarhotelgranada.com">
 		<!-- end: Twitter tags -->
-		<link rel="canonical" href="http://www.reservarhotelmadrid.com/contacto"/>
+		<link rel="canonical" href="http://www.reservarhotelgranada.com/contacto"/>
 	</c:when>
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'ebooks') && not empty param.filtro}">
-		<title>Ofertas de hoteles recomendados de <%= request.getParameter("filtro").replaceAll("-", " ") %> en Madrid | Reservar Hotel Madrid</title> 
-		<meta name="description" content="Lista y oferta de hoteles recomendados en Madrid de <%= request.getParameter("filtro").replaceAll("-", " ") %> para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital española."/>
-		<meta name="author" content="Reservar Hotel Madrid" />
-		<meta name="copyright" content="Reservar Hotel Madrid" />
-		<meta name="application-name" content="Oferta de Hoteles en Reservar Hotel Madrid" />
+		<title>Ofertas de hoteles recomendados de <%= request.getParameter("filtro").replaceAll("-", " ") %> en Granada | Reservar Hotel Granada</title> 
+		<meta name="description" content="Lista y oferta de hoteles recomendados en Granada de <%= request.getParameter("filtro").replaceAll("-", " ") %> para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital granadina."/>
+		<meta name="author" content="Reservar Hotel Granada" />
+		<meta name="copyright" content="Reservar Hotel Granada" />
+		<meta name="application-name" content="Oferta de Hoteles en Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="Oferta de hoteles recomendados de <%= request.getParameter("filtro").replaceAll("-", " ") %> en Reservar Hotel Madrid"/> 
-		<meta property="og:description" content="Lista y oferta de hoteles recomendados en Madrid de <%= request.getParameter("filtro").replaceAll("-", " ") %> para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital española"/>		
+		<meta property="og:title" content="Oferta de hoteles recomendados de <%= request.getParameter("filtro").replaceAll("-", " ") %> en Reservar Hotel Granada"/> 
+		<meta property="og:description" content="Lista y oferta de hoteles recomendados en Granada de <%= request.getParameter("filtro").replaceAll("-", " ") %> para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital granadina."/>		
 		<meta property="og:type" content="hotel"/>
-		<meta property="og:url" content="http://www.reservarhotelmadrid.com/ofertas"/>
+		<meta property="og:url" content="http://www.reservarhotelgranada.com/ofertas"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@reservarhotelmadrid.com"/>
+		<meta property="og:email" content="hola@reservarhotelgranada.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@RHotelMadrid">
-		<meta name="twitter:creator" content="@RHotelMadrid">
-		<meta property="twitter:title" content="Oferta de hoteles recomendados de <%= request.getParameter("filtro").replaceAll("-", " ") %> en Reservar Hotel Madrid"/> 
-		<meta property="twitter:description" content="Lista y oferta de hoteles recomendados en Madrid de <%= request.getParameter("filtro").replaceAll("-", " ") %> para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital española"/>		
+		<meta name="twitter:site" content="@RHotelGranada">
+		<meta name="twitter:creator" content="@RHotelGranada">
+		<meta property="twitter:title" content="Oferta de hoteles recomendados de <%= request.getParameter("filtro").replaceAll("-", " ") %> en Reservar Hotel Granada"/> 
+		<meta property="twitter:description" content="Lista y oferta de hoteles recomendados en Granada de <%= request.getParameter("filtro").replaceAll("-", " ") %> para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital granadina."/>		
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
 				<meta name="twitter:image" content="${publicaciones[0].lImages[0]}">
 			</c:if>
 		</c:if>
-		<meta name="twitter:domain" content="reservarhotelmadrid.com">
-		<link rel="canonical" href="http://www.reservarhotelmadrid.com/ofertas"/>
+		<meta name="twitter:domain" content="reservarhotelgranada.com">
+		<link rel="canonical" href="http://www.reservarhotelgranada.com/ofertas"/>
 		<!-- end: Twitter tags -->		
 	</c:when>	
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'ebooks')}">
-		<title>Ofertas de hoteles recomendados en Madrid | Reservar Hotel Madrid</title> 
-		<meta name="description" content="Lista y oferta de hoteles recomendados en Madrid para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital española."/>
-		<meta name="author" content="Reservar Hotel Madrid" />
-		<meta name="copyright" content="Reservar Hotel Madrid" />
-		<meta name="application-name" content="Oferta de Hoteles en Reservar Hotel Madrid" />
+		<title>Ofertas de hoteles recomendados en Granada | Reservar Hotel Granada</title> 
+		<meta name="description" content="Lista y oferta de hoteles recomendados en Granada para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital granadina."/>
+		<meta name="author" content="Reservar Hotel Granada" />
+		<meta name="copyright" content="Reservar Hotel Granada" />
+		<meta name="application-name" content="Oferta de Hoteles en Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="Oferta de hoteles recomendados en Reservar Hotel Madrid"/> 
-		<meta property="og:description" content="Lista y oferta de hoteles recomendados en Madrid para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital española"/>		
+		<meta property="og:title" content="Oferta de hoteles recomendados en Reservar Hotel Granada"/> 
+		<meta property="og:description" content="Lista y oferta de hoteles recomendados en Granada para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital granadina."/>		
 		<meta property="og:type" content="hotel"/>
-		<meta property="og:url" content="http://www.reservarhotelmadrid.com/ofertas"/>
+		<meta property="og:url" content="http://www.reservarhotelgranada.com/ofertas"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@reservarhotelmadrid.com"/>
+		<meta property="og:email" content="hola@reservarhotelgranada.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@RHotelMadrid">
-		<meta name="twitter:creator" content="@RHotelMadrid">
-		<meta property="twitter:title" content="Oferta de hoteles recomendados en Reservar Hotel Madrid"/> 
-		<meta property="twitter:description" content="Lista y oferta de hoteles recomendados en Madrid para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital española"/>		
+		<meta name="twitter:site" content="@RHotelGranada">
+		<meta name="twitter:creator" content="@RHotelGranada">
+		<meta property="twitter:title" content="Oferta de hoteles recomendados en Reservar Hotel Granada"/> 
+		<meta property="twitter:description" content="Lista y oferta de hoteles recomendados en Granada para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital granadina."/>		
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
 				<meta name="twitter:image" content="${publicaciones[0].lImages[0]}">
 			</c:if>
 		</c:if>
-		<meta name="twitter:domain" content="reservarhotelmadrid.com">
-		<link rel="canonical" href="http://www.reservarhotelmadrid.com/ofertas"/>
+		<meta name="twitter:domain" content="reservarhotelgranada.com">
+		<link rel="canonical" href="http://www.reservarhotelgranada.com/ofertas"/>
 		<!-- end: Twitter tags -->		
 	</c:when>
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog') && not empty param.filtro}">
-		<title>Artículos de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en Madrid | Reservar Hotel Madrid</title> 
-		<meta name="description" content="Artículos y opinión de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> sobre los mejores lugares donde buscar y reservar hotel en Madrid, con las actividades, atracciones y eventos que no te puedes perder durante tu estancia en la capital de España"/>
-		<meta name="author" content="Reservar Hotel Madrid" />
-		<meta name="copyright" content="Reservar Hotel Madrid" />
-		<meta name="application-name" content="Blog en Reservar Hotel Madrid" />
+		<title>Artículos de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en Granada | Reservar Hotel Granada</title> 
+		<meta name="description" content="Artículos y opinión de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> sobre los mejores lugares donde buscar y reservar hotel en Granada, con las actividades, eventos y atracciones que no te puedes perder durante tu estancia en la capital granadina."/>
+		<meta name="author" content="Reservar Hotel Granada" />
+		<meta name="copyright" content="Reservar Hotel Granada" />
+		<meta name="application-name" content="Blog en Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="Artículos de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en Reservar Hotel Madrid"/>
-		<meta property="og:description" content="Artículos y opinión de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> sobre los mejores lugares donde buscar y reservar un hotel en Madrid, con las actividades, atracciones y eventos que no te puedes perder durante tu estancia en la capital de España"/>
+		<meta property="og:title" content="Artículos de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en Reservar Hotel Granada"/>
+		<meta property="og:description" content="Artículos y opinión de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> sobre los mejores lugares donde buscar y reservar un hotel en Granada, con las actividades, eventos y atracciones que no te puedes perder durante tu estancia en la capital granadina."/>
 		<meta property="og:type" content="articulo"/>
-		<meta property="og:url" content="http://www.reservarhotelmadrid.com/blog"/>
+		<meta property="og:url" content="http://www.reservarhotelgranada.com/blog"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@reservarhotelmadrid.com"/>
+		<meta property="og:email" content="hola@reservarhotelgranada.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@RHotelMadrid">
-		<meta name="twitter:creator" content="@RHotelMadrid">
-		<meta name="twitter:title" content="Artículos de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en Reservar Hotel Madrid">
-		<meta name="twitter:description" content="Artículos y opinión de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> sobre los mejores lugares donde reservar hotel en Madrid, con las actividades, atracciones y eventos que no te puedes perder durante tu estancia en la capital de España">
+		<meta name="twitter:site" content="@RHotelGranada">
+		<meta name="twitter:creator" content="@RHotelGranada">
+		<meta name="twitter:title" content="Artículos de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en Reservar Hotel Granada">
+		<meta name="twitter:description" content="Artículos y opinión de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> sobre los mejores lugares donde buscar y reservar hotel en Granada, con las actividades, eventos y atracciones que no te puedes perder durante tu estancia en la capital granadina.">
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
 				<meta name="twitter:image" content="${publicaciones[0].lImages[0]}">
 			</c:if>
 		</c:if>
-		<meta name="twitter:domain" content="reservarhotelmadrid.com">
+		<meta name="twitter:domain" content="reservarhotelgranada.com">
 		<!-- end: Twitter tags -->
-		<link rel="canonical" href="http://www.reservarhotelmadrid.com/blog"/>			
+		<link rel="canonical" href="http://www.reservarhotelgranada.com/blog"/>			
 	</c:when>	
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog')}">
-		<title>Artículos y lugares donde reservar hotel en Madrid | Reservar Hotel Madrid</title> 
-		<meta name="description" content="Artículos y opinión sobre los mejores lugares donde buscar y reservar hotel en Madrid, con las actividades, atracciones y eventos que no te puedes perder durante tu estancia en la capital de España"/>
-		<meta name="author" content="Reservar Hotel Madrid" />
-		<meta name="copyright" content="Reservar Hotel Madrid" />
-		<meta name="application-name" content="Blog en Reservar Hotel Madrid" />
+		<title>Artículos y lugares donde reservar hotel en Granada | Reservar Hotel Granada</title> 
+		<meta name="description" content="Artículos y opinión sobre los mejores lugares donde buscar y reservar hotel en Granada, con las actividades, eventos y atracciones que no te puedes perder durante tu estancia en la capital granadina."/>
+		<meta name="author" content="Reservar Hotel Granada" />
+		<meta name="copyright" content="Reservar Hotel Granada" />
+		<meta name="application-name" content="Blog en Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="Artículos sobre lugares donde reservar hotel en Reservar Hotel Madrid"/>
-		<meta property="og:description" content="Artículos y opinión sobre los mejores lugares donde buscar y reservar hotel en Madrid, con las actividades, atracciones y eventos que no te puedes perder durante tu estancia en la capital de España"/>
+		<meta property="og:title" content="Artículos sobre lugares donde reservar hotel en Reservar Hotel Granada"/>
+		<meta property="og:description" content="Artículos y opinión sobre los mejores lugares donde buscar y reservar hotel en Granada, con las actividades, eventos y atracciones que no te puedes perder durante tu estancia en la capital granadina."/>
 		<meta property="og:type" content="articulo"/>
-		<meta property="og:url" content="http://www.reservarhotelmadrid.com/blog"/>
+		<meta property="og:url" content="http://www.reservarhotelgranada.com/blog"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@reservarhotelmadrid.com"/>
+		<meta property="og:email" content="hola@reservarhotelgranada.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@RHotelMadrid">
-		<meta name="twitter:creator" content="@RHotelMadrid">
-		<meta name="twitter:title" content="Artículos sobre lugares donde reservar hotel en Reservar Hotel Madrid">
-		<meta name="twitter:description" content="Artículos y opinión sobre los mejores lugares donde buscar y reservar hotel en Madrid, con las actividades, atracciones y eventos que no te puedes perder durante tu estancia en la capital de España">
+		<meta name="twitter:site" content="@RHotelGranada">
+		<meta name="twitter:creator" content="@RHotelGranada">
+		<meta name="twitter:title" content="Artículos sobre lugares donde reservar hotel en Reservar Hotel Granada">
+		<meta name="twitter:description" content="Artículos y opinión sobre los mejores lugares donde buscar y reservar hotel en Granada, con las actividades, eventos y atracciones que no te puedes perder durante tu estancia en la capital granadina.">
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
 				<meta name="twitter:image" content="${publicaciones[0].lImages[0]}">
 			</c:if>
 		</c:if>
-		<meta name="twitter:domain" content="reservarhotelmadrid.com">
+		<meta name="twitter:domain" content="reservarhotelgranada.com">
 		<!-- end: Twitter tags -->
-		<link rel="canonical" href="http://www.reservarhotelmadrid.com/blog"/>		
+		<link rel="canonical" href="http://www.reservarhotelgranada.com/blog"/>		
 	</c:when>
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'privacidad')}">
-		<title>Política de privacidad | Reservar Hotel Madrid</title> 
-		<meta name="description" content="Política de privacidad y condiciones de uso de Reservar Hotel Madrid"/>
-		<meta name="author" content="Jorge Amat" />
-		<meta name="copyright" content="Reservar Hotel Madrid" />
-		<meta name="application-name" content="Política privacidad Reservar Hotel Madrid" />
+		<title>Política de privacidad | Reservar Hotel Granada</title> 
+		<meta name="description" content="Política de privacidad y condiciones de uso de Reservar Hotel Granada"/>
+		<meta name="author" content="Raúl" />
+		<meta name="copyright" content="Reservar Hotel Granada" />
+		<meta name="application-name" content="Política privacidad Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="Política de privacidad de Reservar Hotel Madrid"/>
-		<meta property="og:description" content="Política de privacidad y condiciones de uso de Reservar Hotel Madrid"/>
-		<meta property="og:url" content="http://www.reservarhotelmadrid.com/politica-de-privacidad"/>
-		<meta property="og:email" content="hola@reservarhotelmadrid.com/"/>
+		<meta property="og:title" content="Política de privacidad de Reservar Hotel Granada"/>
+		<meta property="og:description" content="Política de privacidad y condiciones de uso de Reservar Hotel Granada"/>
+		<meta property="og:url" content="http://www.reservarhotelgranada.com/politica-de-privacidad"/>
+		<meta property="og:email" content="hola@reservarhotelgranada.com/"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@RHotelMadrid">
-		<meta name="twitter:creator" content="@RHotelMadrid">
-		<meta name="twitter:title" content="Política de privacidad de Reservar Hotel Madrid">
-		<meta name="twitter:description" content="Política de privacidad y condiciones de uso de Reservar Hotel Madrid">
-		<meta name="twitter:domain" content="reservarhotelmadrid.com/">
-		<link rel="canonical" href="http://www.reservarhotelmadrid.com/politica-de-privacidad"/>
+		<meta name="twitter:site" content="@RHotelGranada">
+		<meta name="twitter:creator" content="@RHotelGranada">
+		<meta name="twitter:title" content="Política de privacidad de Reservar Hotel Granada">
+		<meta name="twitter:description" content="Política de privacidad y condiciones de uso de Reservar Hotel Granada">
+		<meta name="twitter:domain" content="reservarhotelgranada.com/">
+		<link rel="canonical" href="http://www.reservarhotelgranada.com/politica-de-privacidad"/>
 		<!-- end: Twitter tags -->		
 	</c:when>	
 	<c:otherwise>
-		<title>Reservar Hotel Madrid - Información para reservar hotel en Madrid</title> 
-		<meta name="description" content="Información para buscar y reservar hotel en Madrid a través de nuestros artículos, en el centro o en las afueras de la capital y descubrir así los mejores lugares y actividades a realizar durante tu viaje."/>
-		<meta name="author" content="Reservar Hotel Madrid" />
-		<meta name="copyright" content="Reservar Hotel Madrid" />
-		<meta name="application-name" content="Hoteles en Reservar Hotel Madrid" />
+		<title>Reservar Hotel Granada - Información para reservar hotel en Granada</title> 
+		<meta name="description" content="Información para buscar y reservar hotel en Granada a través de nuestros artículos, en el centro histórico de la ciudad o en las afueras y descubrir así los mejores lugares y actividades a realizar durante tu viaje."/>
+		<meta name="author" content="Reservar Hotel Granada" />
+		<meta name="copyright" content="Reservar Hotel Granada" />
+		<meta name="application-name" content="Hoteles en Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="Reservar Hotel Madrid - Información para reservar hotel en Madrid"/>
-		<meta property="og:description" content="Información para buscar y reservar hotel en Madrid a través de nuestros artículos, en el centro o en las afueras de la capital y descubrir así los mejores lugares y actividades a realizar durante tu viaje."/>
+		<meta property="og:title" content="Reservar Hotel Granada - Información para reservar hotel en Granada"/>
+		<meta property="og:description" content="Información para buscar y reservar hotel en Granada a través de nuestros artículos, en el centro histórico de la ciudad o en las afueras y descubrir así los mejores lugares y actividades a realizar durante tu viaje."/>
 		<meta property="og:type" content="principal"/>
-		<meta property="og:url" content="http://www.reservarhotelmadrid.com"/>
+		<meta property="og:url" content="http://www.reservarhotelgranada.com"/>
 		<meta property="og:image" content="/img/img-meta/logo_grande.jpg"/>
-		<meta property="og:email" content="hola@reservarhotelmadrid.com"/>
+		<meta property="og:email" content="hola@reservarhotelgranada.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@RHotelMadrid">
-		<meta name="twitter:creator" content="@RHotelMadrid">
-		<meta name="twitter:title" content="Reservar Hotel Madrid - Información para reservar hotel en Madrid">
-		<meta name="twitter:description" content="Información para que puedas buscar y reservar hotel en Madrid a través de nuestros artículos, ya sea en el centro de la ciudad o en las afueras y descubrir así los mejores lugares y actividades a realizar.">
+		<meta name="twitter:site" content="@RHotelGranada">
+		<meta name="twitter:creator" content="@RHotelGranada">
+		<meta name="twitter:title" content="Reservar Hotel Granada - Información para reservar hotel en Granada">
+		<meta name="twitter:description" content="Información para que puedas buscar y reservar hotel en Granada a través de nuestros artículos, ya sea en el centro histórico de la ciudad o en las afueras y descubrir así los mejores lugares y actividades a realizar durante tu viaje.">
 		<meta name="twitter:image" content="/img/img-meta/logo_grande.jpg">
-		<meta name="twitter:domain" content="reservarhotelmadrid.com">
+		<meta name="twitter:domain" content="reservarhotelgranada.com">
 		<!-- end: Twitter tags -->				
-		<link rel="canonical" href="http://www.reservarhotelmadrid.com"/>
+		<link rel="canonical" href="http://www.reservarhotelgranada.com"/>
 	</c:otherwise>		
 	</c:choose>
-	<link rel="alternate" type="application/rss+xml" title="Reservar Hotel Madrid RSS Feed" href="http://www.reservarhotelmadrid.com/rssfeed" />
+	<link rel="alternate" type="application/rss+xml" title="Reservar Hotel Granada RSS Feed" href="http://www.reservarhotelgranada.com/rssfeed" />
 	<link href="https://plus.google.com/112598405675220307611" rel="publisher" />
 	<style>
 	@font-face {
@@ -367,7 +367,7 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
 	          		</a>
-					<a class="brand" href="/"><i class="ico-suitcase circle"></i>Reservar Hotel <span>Madrid</span>.</a>
+					<a class="brand" href="/"><i class="ico-suitcase circle"></i>Reservar Hotel <span>Granada</span>.</a>
 	          		<div class="nav-collapse collapse">
 	            		<ul id="menuSuperior" class="nav" style="margin-right:-30px;">
 							<li id="menuInicio">
@@ -383,7 +383,7 @@
 								</ul>
 	              			</li>
 	              			<li id="menuBlog"><a onClick="ga('send', 'event', 'Menu Superior', 'Menu Blog', 'Blog');" title="Blog" href="/blog">Blog</a></li>	              																			
-	              			<li id="menuSobre"><a onClick="ga('send', 'event', 'Menu Superior', 'Menu Sobre', 'Sobre');" title="Sobre Nosotros" href="/sobre">Sobre nosotros</a></li>
+	              			<li id="menuAcerca"><a onClick="ga('send', 'event', 'Menu Superior', 'Menu Sobre', 'Sobre');" title="Acerca de" href="/sobre">Acerca de</a></li>
 	              			<li id="menuContacto"><a onClick="ga('send', 'event', 'Menu Superior', 'Menu Contacto', 'Contacto');" title="Contacto" href="/contacto">Contacto</a></li>
 	              			<li style="margin-top: -8px;"><a onClick="ga('send', 'event', 'Menu Superior', 'Menu RSS', 'RSS');" href="#newsletter" accesskey="r"><img src="/img/logo_social.png" alt="Más"></a></li>
 	            		</ul>
