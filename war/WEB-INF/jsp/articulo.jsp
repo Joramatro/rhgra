@@ -114,18 +114,13 @@
 						<span style="white-space: nowrap;" itemprop="name">${publicacion.autor}</span></span></a></li>
 					</ul>					
 				</div>				
-				<div class="span10">
-					<!-- Place this tag where you want the +1 button to render. -->
-					<div class="g-plusone"></div> 												
-					<br>
-				
+				<div class="span10">				
 					<c:if test="${publicacion.disponible ne 'N'}">
 						<h2><a href="/ofertas" onClick="ga('send', 'event', 'Ofertas', '${publicacion.url}', 'Boton Oferta Hoteles');" class="button color launch" target="_blank">Ver hoteles recomendados en Granada</a></h2>				
 					</c:if>
+					<div class="g-plusone"></div> 														
+					<br><br>
 					<meta id="_articleBody7" itemprop="articleBody" content="${fn:replace(publicacion.articulo, "\"", "'")}">
-					<c:if test="${publicacion.disponible eq 'N'}">
-						<br>				
-					</c:if>
 					${publicacion.articulo}				
 					<br>
 					<!-- Inserta esta etiqueta donde quieras que aparezca Botón +1. -->
