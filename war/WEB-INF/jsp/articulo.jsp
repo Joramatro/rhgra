@@ -123,6 +123,9 @@
 						<h2><a href="/ofertas" onClick="ga('send', 'event', 'Ofertas', '${publicacion.url}', 'Boton Oferta Hoteles');" class="button color launch" target="_blank">Ver hoteles recomendados en Granada</a></h2>				
 					</c:if>
 					<meta id="_articleBody7" itemprop="articleBody" content="${fn:replace(publicacion.articulo, "\"", "'")}">
+					<c:if test="${publicacion.disponible eq 'N'}">
+						<br>				
+					</c:if>
 					${publicacion.articulo}				
 					<br>
 					<!-- Inserta esta etiqueta donde quieras que aparezca Botón +1. -->
