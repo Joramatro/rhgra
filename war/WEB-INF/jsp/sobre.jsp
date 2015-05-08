@@ -42,7 +42,7 @@
 					<div id="about">
 						<div class="title"><h3>Acerca de nosotros</h3></div>
 						<p>
-							Somos un equipo de personas con pasión por viajar, la historia y en especial por la ciudad de Granada, que además quiere ofrecerte la mejor información y los mejores artículos para buscar hoteles y destinos a visitar en la ciudad andaluza, pues está repleta de rincones maravillosos que visitar.
+							Somos un equipo de personas con pasión por viajar, la historia y en especial por la ciudad de Granada, que además quiere ofrecerte la mejor información y los mejores artículos para buscar hoteles y destinos a visitar en la ciudad andaluza, pues está repleta de rincones maravillosos que ver.
 						</p>
 						<p>
 							Además de nuestros artículos y opiniones, te ofrecemos información detallada sobre los mejores hoteles que puedes reservar en Granada. Estamos aquí para ayudarte en todo lo posible y ofrecerte la mejor información al respecto que puedas encontrar en Internet.
