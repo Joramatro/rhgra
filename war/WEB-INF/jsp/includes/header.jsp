@@ -70,7 +70,6 @@
 		<meta name="description" content="Toda la información sobre los que trabajamos en Reservar Hotel Granada, su experiencia y valores profesionales"/>
 		<meta name="author" content="Reservar Hotel Granada" />
 		<meta name="copyright" content="Reservar Hotel Granada" />
-		<meta name="application-name" content="Acerca de nosotros en Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Acerca de nosotros en Reservar Hotel Granada"/>
 		<meta property="og:description" content="Toda la información sobre los que trabajamos en Reservar Hotel Granada, su experiencia y valores profesionales"/>
@@ -95,7 +94,6 @@
 		<meta name="description" content="Contacta con los que trabajamos en Reservar Hotel Granada"/>
 		<meta name="author" content="Reservar Hotel Granada" />
 		<meta name="copyright" content="Reservar Hotel Granada" />
-		<meta name="application-name" content="Contacto en Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Contacta en Reservar Hotel Granada"/>
 		<meta property="og:description" content="Contacta con los que trabajamos en Reservar Hotel Granada"/>
@@ -121,7 +119,7 @@
 		<meta name="description" content="Lista y oferta de hoteles recomendados en Granada de <%= request.getParameter("filtro").replaceAll("-", " ") %> para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital granadina."/>
 		<meta name="author" content="Reservar Hotel Granada" />
 		<meta name="copyright" content="Reservar Hotel Granada" />
-		<meta name="application-name" content="Oferta de Hoteles en Reservar Hotel Granada" />
+		<meta name="application-name" content="Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Oferta de hoteles recomendados de <%= request.getParameter("filtro").replaceAll("-", " ") %> en Reservar Hotel Granada"/> 
 		<meta property="og:description" content="Lista y oferta de hoteles recomendados en Granada de <%= request.getParameter("filtro").replaceAll("-", " ") %> para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital granadina."/>		
@@ -155,7 +153,7 @@
 		<meta name="description" content="Lista y oferta de hoteles recomendados en Granada para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital granadina."/>
 		<meta name="author" content="Reservar Hotel Granada" />
 		<meta name="copyright" content="Reservar Hotel Granada" />
-		<meta name="application-name" content="Oferta de Hoteles en Reservar Hotel Granada" />
+		<meta name="application-name" content="Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Oferta de hoteles recomendados en Reservar Hotel Granada"/> 
 		<meta property="og:description" content="Lista y oferta de hoteles recomendados en Granada para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital granadina."/>		
@@ -189,7 +187,7 @@
 		<meta name="description" content="Artículos y opinión de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> sobre los mejores lugares donde buscar y reservar hotel en Granada, con las actividades, eventos y atracciones que no te puedes perder durante tu estancia en la capital granadina."/>
 		<meta name="author" content="Reservar Hotel Granada" />
 		<meta name="copyright" content="Reservar Hotel Granada" />
-		<meta name="application-name" content="Blog en Reservar Hotel Granada" />
+		<meta name="application-name" content="Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Artículos de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en Reservar Hotel Granada"/>
 		<meta property="og:description" content="Artículos y opinión de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> sobre los mejores lugares donde buscar y reservar un hotel en Granada, con las actividades, eventos y atracciones que no te puedes perder durante tu estancia en la capital granadina."/>
@@ -223,7 +221,7 @@
 		<meta name="description" content="Artículos y opinión sobre los mejores lugares donde buscar y reservar hotel en Granada, con las actividades, eventos y atracciones que no te puedes perder durante tu estancia en la capital granadina."/>
 		<meta name="author" content="Reservar Hotel Granada" />
 		<meta name="copyright" content="Reservar Hotel Granada" />
-		<meta name="application-name" content="Blog en Reservar Hotel Granada" />
+		<meta name="application-name" content="Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Artículos sobre lugares donde reservar hotel en Reservar Hotel Granada"/>
 		<meta property="og:description" content="Artículos y opinión sobre los mejores lugares donde buscar y reservar hotel en Granada, con las actividades, eventos y atracciones que no te puedes perder durante tu estancia en la capital granadina."/>
@@ -256,7 +254,6 @@
 		<meta name="description" content="Política de privacidad y condiciones de uso de Reservar Hotel Granada"/>
 		<meta name="author" content="Raúl" />
 		<meta name="copyright" content="Reservar Hotel Granada" />
-		<meta name="application-name" content="Política privacidad Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Política de privacidad de Reservar Hotel Granada"/>
 		<meta property="og:description" content="Política de privacidad y condiciones de uso de Reservar Hotel Granada"/>
@@ -278,7 +275,7 @@
 		<meta name="description" content="Información para buscar y reservar hotel en Granada a través de nuestros artículos, en el centro histórico de la ciudad o en las afueras y descubrir así los mejores lugares y actividades a realizar durante tu viaje."/>
 		<meta name="author" content="Reservar Hotel Granada" />
 		<meta name="copyright" content="Reservar Hotel Granada" />
-		<meta name="application-name" content="Hoteles en Reservar Hotel Granada" />
+		<meta name="application-name" content="Reservar Hotel Granada" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Reservar Hotel Granada - Información para reservar hotel en Granada"/>
 		<meta property="og:description" content="Información para buscar y reservar hotel en Granada a través de nuestros artículos, en el centro histórico de la ciudad o en las afueras y descubrir así los mejores lugares y actividades a realizar durante tu viaje."/>
