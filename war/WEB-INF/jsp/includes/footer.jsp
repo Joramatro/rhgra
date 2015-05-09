@@ -128,10 +128,10 @@
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-youtube">
-											<a target="_blank" href="https://www.youtube.com/Reservarhotelgranada1"></a>
+											<a target="_blank" href="https://www.youtube.com/c/Reservarhotelgranada1"></a>
 										</div>
 										<div class="social-info-back social-youtube-hover">
-											<a target="_blank" href="https://www.youtube.com/Reservarhotelgranada1"></a>
+											<a target="_blank" href="https://www.youtube.com/c/Reservarhotelgranada1"></a>
 										</div>	
 									</div>
 								</div>
@@ -159,7 +159,7 @@
 					
 					<h3>Suscríbete!</h3>
 					<form id="newsletter" action="//reservarhotelgranada.us10.list-manage.com/subscribe/post?u=75e517166c4d44713341c58a4&amp;id=9eae75f46b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">	
-						<p>Por favor, déjanos tu email para recibir las mejores ofertas para viajar y reservar hotel en Granada.</p>
+						<p>Por favor, déjanos tu email para recibir nuestras novedades y las mejores ofertas para viajar y reservar hotel en Granada.</p>
 						<label for="newsletter_input">@:</label>
 						<input style="border: 1px solid #29a9df" type="text" name="EMAIL" id="mce-EMAIL" placeholder="Introduce tu email">
 						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->

@@ -114,8 +114,8 @@
 						<li class="flickr"><a target="_blank" href="https://www.flickr.com/photos/reservarhotelgranada/">flickr</a></li>
 						<li class="googleplus"><a target="_blank" href="https://plus.google.com/+Reservarhotelgranada1">googleplus</a></li>
 						<li class="twitter"><a target="_blank" href="https://twitter.com/RHotelGranada">twitter</a></li>
-						<li class="yelp"><a target="_blank" href="http://www.yelp.es/user_details?userid=wfBQrnTh0mmalaIZSUyh8g">yelp</a></li>
-						<li class="youtube"><a target="_blank" href="https://www.youtube.com/Reservarhotelgranada1">youtube</a></li>
+						<li class="yelp"><a target="_blank" href="http://rhotelgranada.yelp.es">yelp</a></li>
+						<li class="youtube"><a target="_blank" href="https://www.youtube.com/c/Reservarhotelgranada1">youtube</a></li>
 					</ul>
 				</div>
 				<!-- end: Social Sites -->							
