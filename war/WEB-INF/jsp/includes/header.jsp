@@ -115,7 +115,7 @@
 	</c:when>
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'ebooks') && not empty param.filtro}">
-		<title>Ofertas de hoteles recomendados de <%= request.getParameter("filtro").replaceAll("-", " ") %> en Granada | Reservar Hotel Granada</title> 
+		<title>Ofertas de hoteles recomendados de <%= request.getParameter("filtro").replaceAll("-", " ") %> | Reservar Hotel Granada</title> 
 		<meta name="description" content="Lista y oferta de hoteles recomendados en Granada de <%= request.getParameter("filtro").replaceAll("-", " ") %> para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital granadina."/>
 		<meta name="author" content="Reservar Hotel Granada" />
 		<meta name="copyright" content="Reservar Hotel Granada" />
@@ -149,7 +149,7 @@
 	</c:when>	
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'ebooks')}">
-		<title>Ofertas de hoteles recomendados en Granada | Reservar Hotel Granada</title> 
+		<title>Ofertas de hoteles recomendados | Reservar Hotel Granada</title> 
 		<meta name="description" content="Lista y oferta de hoteles recomendados en Granada para que puedas reservar entre la mejor selección de establecimientos hoteleros para tu viaje a la capital granadina."/>
 		<meta name="author" content="Reservar Hotel Granada" />
 		<meta name="copyright" content="Reservar Hotel Granada" />
@@ -183,7 +183,7 @@
 	</c:when>
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog') && not empty param.filtro}">
-		<title>Artículos de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> en Granada | Reservar Hotel Granada</title> 
+		<title>Artículos de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> | Reservar Hotel Granada</title> 
 		<meta name="description" content="Artículos y opinión de tipo <%= request.getParameter("filtro").replaceAll("-", " ") %> sobre los mejores lugares donde buscar y reservar hotel en Granada, con las actividades, eventos y atracciones que no te puedes perder durante tu estancia en la capital granadina."/>
 		<meta name="author" content="Reservar Hotel Granada" />
 		<meta name="copyright" content="Reservar Hotel Granada" />
@@ -217,7 +217,7 @@
 	</c:when>	
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog')}">
-		<title>Artículos y lugares donde reservar hotel en Granada | Reservar Hotel Granada</title> 
+		<title>Artículos y lugares donde reservar hotel | Reservar Hotel Granada</title> 
 		<meta name="description" content="Artículos y opinión sobre los mejores lugares donde buscar y reservar hotel en Granada, con las actividades, eventos y atracciones que no te puedes perder durante tu estancia en la capital granadina."/>
 		<meta name="author" content="Reservar Hotel Granada" />
 		<meta name="copyright" content="Reservar Hotel Granada" />
