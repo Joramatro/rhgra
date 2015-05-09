@@ -79,7 +79,6 @@
 		<meta property="og:url" content="http://www.reservarhotelgranada.com/sobre"/>
 		<meta property="og:image" content="http://www.reservarhotelgranada.com/img/img-meta/logo_grande.jpg"/>
 		<meta property="og:site_name" content="Reservar Hotel Granada"/>
-		<meta property="og:publisher" content="https://www.facebook.com/pages/Reservar-Hotel-Granada/693538744121790"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -104,7 +103,6 @@
 		<meta property="og:url" content="http://www.reservarhotelgranada.com/contacto"/>
 		<meta property="og:image" content="http://www.reservarhotelgranada.com/img/img-meta/logo_grande.jpg"/>
 		<meta property="og:site_name" content="Reservar Hotel Granada"/>
-		<meta property="og:publisher" content="https://www.facebook.com/pages/Reservar-Hotel-Granada/693538744121790"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -292,7 +290,6 @@
 		<meta property="og:url" content="http://www.reservarhotelgranada.com"/>
 		<meta property="og:image" content="http://www.reservarhotelgranada.com/img/img-meta/logo_grande.jpg"/>
 		<meta property="og:site_name" content="Reservar Hotel Granada"/>
-		<meta property="og:publisher" content="https://www.facebook.com/pages/Reservar-Hotel-Granada/693538744121790"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
