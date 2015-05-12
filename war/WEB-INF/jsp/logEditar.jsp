@@ -118,7 +118,7 @@
 				<!-- start: Footer Menu Logo -->
 				<div class="span2">
 					<div id="footer-menu-logo">
-						<div id="logo-chart"></div><a class="brand" href="/">CC<span>H</span>.</a>
+						<div id="logo-chart"></div><a class="brand" href="/">C<span>H</span>.</a>
 					</div>
 				</div>
 				<!-- end: Footer Menu Logo -->
@@ -285,7 +285,7 @@
 		
 			<div class="span12">
 				<p>
-					&copy; 2015, <a href="/">CH</a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
+					&copy; 2015, <a href="/">Reservar Hotel Granada</a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				</p>
 			</div>
 	
